@@ -2,14 +2,14 @@
 
 namespace TravelManagementSystem.Domain.ValueObject
 {
-    public record Travelerltem
+    public record TravelerItem
     {
         public string Name { get; }
         public uint Quantity { get; }
 
         public bool IsTaken { get; init; }
 
-        public Travelerltem(string name, uint quantity, bool isTaken)
+        public TravelerItem(string name, uint quantity, bool isTaken = false)
         {
             if (string.IsNullOrEmpty(name))
             {
