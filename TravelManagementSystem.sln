@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F281E6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagementSystem.Shared.Abstraction", "TravelManagementSystem.Shared.Abstraction\TravelManagementSystem.Shared.Abstraction.csproj", "{C6710FAA-5B43-4ECA-B6F1-EE86D594A27A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagementSystem.Application", "TravelManagementSystem.Application\TravelManagementSystem.Application.csproj", "{7A48B2F2-AE58-4602-91F9-46CEE1107C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagementSystem.Api", "TravelManagementSystem.Api\TravelManagementSystem.Api.csproj", "{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{C6710FAA-5B43-4ECA-B6F1-EE86D594A27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6710FAA-5B43-4ECA-B6F1-EE86D594A27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6710FAA-5B43-4ECA-B6F1-EE86D594A27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A48B2F2-AE58-4602-91F9-46CEE1107C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A48B2F2-AE58-4602-91F9-46CEE1107C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A48B2F2-AE58-4602-91F9-46CEE1107C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A48B2F2-AE58-4602-91F9-46CEE1107C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TravelManagementSystem.Domain\TravelManagementSystem.Domain.csproj" />
+    <ProjectReference Include="..\TravelManagementSystem.Shared.Abstraction\TravelManagementSystem.Shared.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
