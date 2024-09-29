@@ -1,4 +1,5 @@
-﻿namespace TravelManagementSystem.Domain.ValueObject
+﻿
+namespace TravelManagementSystem.Domain.ValueObject
 {
     public record Destination(string City,string Country)
     {
@@ -9,5 +10,20 @@
         }
         public override string ToString()=>
             $"{City}:{Country}";
+
+        public static implicit operator Destination?(TravelManagementSystem.Application.DTO.DestinationDTO? v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static implicit operator Destination(TravelManagementSystem.Application.DTO.DestinationDTO v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static implicit operator Destination(TravelManagementSystem.Application.DTO.DestinationDTO v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

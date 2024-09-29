@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagementSystem.Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagementSystem.Api", "TravelManagementSystem.Api\TravelManagementSystem.Api.csproj", "{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagementSystem.Shared", "TravelManagementSystem.Shared\TravelManagementSystem.Shared.csproj", "{F703D4DC-AE32-41A2-ABEE-CB15D26840BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagementSystem.Infrastructure", "TravelManagementSystem.Infrastructure\TravelManagementSystem.Infrastructure.csproj", "{46DE2CCB-11F2-4A50-9795-FFA44D13B8AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +39,21 @@ Global
 		{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA758A62-4D0F-4446-908A-AEAF4DFA3A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F703D4DC-AE32-41A2-ABEE-CB15D26840BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F703D4DC-AE32-41A2-ABEE-CB15D26840BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F703D4DC-AE32-41A2-ABEE-CB15D26840BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F703D4DC-AE32-41A2-ABEE-CB15D26840BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DE2CCB-11F2-4A50-9795-FFA44D13B8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DE2CCB-11F2-4A50-9795-FFA44D13B8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DE2CCB-11F2-4A50-9795-FFA44D13B8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DE2CCB-11F2-4A50-9795-FFA44D13B8AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C6710FAA-5B43-4ECA-B6F1-EE86D594A27A} = {F281E6EF-B017-4387-9184-335F31AB43CF}
+		{F703D4DC-AE32-41A2-ABEE-CB15D26840BD} = {F281E6EF-B017-4387-9184-335F31AB43CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2F565A7-F5F8-4117-9D0F-C424F43C79D8}

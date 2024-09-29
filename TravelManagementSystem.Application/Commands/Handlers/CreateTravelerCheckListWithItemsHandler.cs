@@ -17,18 +17,23 @@ namespace TravelManagementSystem.Application.Commands.Handlers
         private readonly ITravelerCheckListRepository _Repository;
         private readonly IWeatherService _weatherService;
         private readonly ITravelerCheckListFactory _factory;
+        private readonly ITravelerCheckReadService _ReadService;
 
-        public CreateTravelerCheckListWithItemsHandler(ITravelerCheckListRepository repository, IWeatherService weatherService, ITravelerCheckListFactory factory)
+        public CreateTravelerCheckListWithItemsHandler(ITravelerCheckListRepository repository, IWeatherService weatherService, ITravelerCheckListFactory factory, ITravelerCheckReadService readService)
         {
             _Repository = repository;
             _weatherService = weatherService;
             _factory = factory;
+            _ReadService = readService;
         }
 
         public async Task HandleAsync(CreateTravelerCheckListWithItems command)
         {
             var (id, name, days, gender, DestinationWriteWithModel) = command;
-
+            if (await _ReadService.ExistByName(name))
+            {
+                throw new TravelerCheckListAlreadyExistException(name);
+            }
             var destination = new Destination(DestinationWriteWithModel.City, DestinationWriteWithModel.Country);
             var weather = await _weatherService.GetWeatherAsync(destination);
             if (weather is null)
