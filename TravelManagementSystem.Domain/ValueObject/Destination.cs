@@ -10,20 +10,5 @@ namespace TravelManagementSystem.Domain.ValueObject
         }
         public override string ToString()=>
             $"{City}:{Country}";
-
-        public static implicit operator Destination?(TravelManagementSystem.Application.DTO.DestinationDTO? v)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static implicit operator Destination(TravelManagementSystem.Application.DTO.DestinationDTO v)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static implicit operator Destination(TravelManagementSystem.Application.DTO.DestinationDTO v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

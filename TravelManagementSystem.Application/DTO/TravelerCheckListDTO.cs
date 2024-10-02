@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TravelManagementSystem.Domain.ValueObject;
-
-namespace TravelManagementSystem.Application.DTO
+﻿namespace TravelManagementSystem.Application.DTO
 {
     public class TravelerCheckListDTO
     {

@@ -2,7 +2,6 @@
 using TravelManagementSystem.Domain.Entities;
 using TravelManagementSystem.Domain.ValueObject;
 using TravelManagementSystem.Infrastructure.EF.Config;
-using TravelManagementSystem.Infrastructure.EF.Models;
 
 namespace TravelManagementSystem.Infrastructure.EF.Contexts
 {

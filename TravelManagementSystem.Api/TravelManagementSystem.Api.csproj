@@ -8,6 +8,21 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0-rc.1.24452.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TravelManagementSystem.Application\TravelManagementSystem.Application.csproj" />
+    <ProjectReference Include="..\TravelManagementSystem.Infrastructure\TravelManagementSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\TravelManagementSystem.Shared.Abstraction\TravelManagementSystem.Shared.Abstraction.csproj" />
   </ItemGroup>
 
 </Project>

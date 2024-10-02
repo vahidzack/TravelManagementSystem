@@ -8,7 +8,7 @@ using TravelManagementSystem.Shared.Abstraction.Queries;
 
 namespace TravelManagementSystem.Application.Queries
 {
-    public class SearchTravelerCheckList : IQuery<TravelerCheckListDTO>
+    public class SearchTravelerCheckList : IQuery<IEnumerable<TravelerCheckListDTO>>
     {
         public string SearhPhrase { get; set; }
     }

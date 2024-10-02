@@ -1,4 +1,5 @@
 ﻿using TravelManagementSystem.Application.DTO.External;
+using TravelManagementSystem.Application.DTO.External.TravelManagementSystem.Application.DTO.External;
 using TravelManagementSystem.Domain.ValueObject;
 
 namespace TravelManagementSystem.Application.Services
