@@ -5,6 +5,7 @@ namespace TravelManagementSystem.Domain.ValueObject
     public record TravelerItem
     {
         public string Name { get; }
+
         public uint Quantity { get; }
 
         public bool IsTaken { get; init; }
